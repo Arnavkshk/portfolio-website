@@ -10,39 +10,46 @@ body{
 }
 #main{
     position: relative;
-    max-height: 100vh;
-    max-width: 100%;
-    
-}
-#particles-js{
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;    
+}
+#particles-js {
+    background-image: url(background.jpg);
     background-size: cover;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    background-attachment:fixed;
-    z-index: -3;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
 }
 #particleChild{
-    height: 100vh;
     width: 50%;
     text-align: center;
-    margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 h1{
     border-top: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid rgb(255, 255, 255);
     font-size: 60px;
+
+}
+p.me{
+    font-size: 25px;
 }
 .me{
-    font-size: 30px;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -52,3 +59,27 @@ nav{
     color: white;
     height: 60px;
 }
+#mouse{
+    position: absolute;
+    /* margin-top: 20px; */
+    width: 100%;
+    filter: invert(100%);
+    animation: jiggle 1s infinite alternate linear;
+}
+#main2{
+    margin-top: 140px;
+    width: 3%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+@keyframes jiggle{
+    0% {
+      margin-top: 260px
+    }
+    100% {
+      margin-top: 280px;
+    }
+  }
