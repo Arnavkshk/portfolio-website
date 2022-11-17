@@ -83,3 +83,15 @@ nav{
       margin-top: 280px;
     }
   }
+
+#aboutme{
+    height:100vh;
+
+}
+#img{
+    height: 50%;
+    width: 50%;
+    background-image: url("pfp.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
