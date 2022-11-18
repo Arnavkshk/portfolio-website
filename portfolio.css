@@ -43,7 +43,6 @@ h1{
     border-top: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid rgb(255, 255, 255);
     font-size: 60px;
-
 }
 p.me{
     font-size: 25px;
@@ -86,12 +85,37 @@ nav{
 
 #aboutme{
     height:100vh;
-
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 50px;
 }
 #img{
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 15%;
     background-image: url("pfp.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50%;
+    border:8px solid rgb(255, 255, 255) ;
+}
+#text{
+    width: 50%;
+    height:50%;
+    color: rgb(80, 79, 79);
+}
+#nobar{
+    border: none;
+    border:bottom;
+}
+#text p{
+    font-size: 20px;
+    color: grey;
+    margin-top: 10px;
+}
+#bar{
+    border: 2px solid white;
+    width : 150px;
+    height: 0px;
+    background-color: white;
 }
