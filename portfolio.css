@@ -30,7 +30,7 @@ body{
     position:absolute;
 }
 #particleChild{
-    width: 50%;
+    width: 35%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -38,17 +38,21 @@ body{
     position: relative;
     align-items: center;
     justify-content: center;
+
 }
 h1{
     border-top: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 65px;
 }
 p.me{
     font-size: 25px;
 }
 .me{
     width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
 }
 nav{
     display: flex;
@@ -102,7 +106,7 @@ nav{
 #text{
     width: 50%;
     height:50%;
-    color: rgb(80, 79, 79);
+    color: rgb(172, 172, 172);
 }
 #nobar{
     border: none;
@@ -110,7 +114,7 @@ nav{
 }
 #text p{
     font-size: 20px;
-    color: grey;
+    color: rgb(179, 179, 179);
     margin-top: 10px;
 }
 #bar{
@@ -119,4 +123,3 @@ nav{
     height: 0px;
     background-color: white;
 }
-/* {} */
