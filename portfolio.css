@@ -96,7 +96,7 @@ nav{
 }
 #img{
     height: 30%;
-    width: 15%;
+    width: 100%;
     background-image: url("pfp.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,4 +158,11 @@ nav{
 }
 .accordion{
     margin-top: 70px;
+}
+#aboutme2{
+    width: 15rem;
+    color: white;
+}
+.info{
+    font-size: 15px;
 }
