@@ -62,6 +62,17 @@ nav{
     color: white;
     height: 60px;
 }
+nav a:visited{
+    color: white;
+    text-decoration: none;
+}
+nav div a:hover{
+   color: green;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
 #mouse{
     position: absolute;
     /* margin-top: 20px; */
@@ -83,9 +94,9 @@ nav{
       margin-top: 260px
     }
     100% {
-      margin-top: 280px;
+        margin-top: 280px;
     }
-  }
+}
 
 #aboutme{
     height:100vh;
@@ -104,6 +115,7 @@ nav{
     border:8px solid rgb(255, 255, 255) ;
 }
 #text{
+    margin-top: 50px;
     width: 50%;
     height:50%;
     color: rgb(172, 172, 172);
@@ -161,8 +173,84 @@ nav{
 }
 #aboutme2{
     width: 15rem;
-    color: white;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .info{
     font-size: 15px;
+    font-weight: bold;
+    color: rgb(154, 153, 153);
+}
+.info a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(154, 153, 153);
+}
+.info a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(9, 130, 0);
+}
+#info2{
+    color: rgb(248, 248, 248);
+    font-size: 28px;
+    margin-top: 20px;
+}
+.info1{
+    color: rgb(248, 248, 248);
+    font-size: 17px;
+    font-weight: bold;
+}
+#bar1{
+    border: 1.5px solid white;
+    width : 150px;
+    height: 0px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bgpage3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#page3one{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board10{
+    width: 100%;
+    height: 100%;
+    background-image: url("10th.png");
+    background-repeat: no-repeat;
+    position: relative;
+    filter: invert(100%);
+}
+#board12{
+    width: 100%;
+    height: 100%;
+    background-image: url("12th.png");
+    background-repeat: no-repeat;
+    position: relative;
+    filter: invert(100%);
+}
+#degree{
+    width: 100%;
+    height: 100%;
+    background-image: url("degree.png");
+    background-repeat: no-repeat;
+    position: relative;
+    filter: invert(100%);
 }
