@@ -216,9 +216,6 @@ nav a{
 #page3{
     height: 100vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url("bgpage3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,30 +224,43 @@ nav a{
     width: 100%;
     height: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
 #board10{
-    width: 100%;
     height: 100%;
-    background-image: url("10th.png");
-    background-repeat: no-repeat;
     position: relative;
     filter: invert(100%);
+    align-items: center;
+    zoom: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #board12{
-    width: 100%;
     height: 100%;
-    background-image: url("12th.png");
-    background-repeat: no-repeat;
     position: relative;
     filter: invert(100%);
+    align-items: center;
+    zoom: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #degree{
-    width: 100%;
     height: 100%;
-    background-image: url("degree.png");
-    background-repeat: no-repeat;
     position: relative;
     filter: invert(100%);
+    align-items: center;
+    zoom: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#page3two{
+    width: 100%;
+    height: 50%;
+}
+.pictext{
+    font-size: 100px;
+
 }
