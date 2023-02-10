@@ -353,12 +353,16 @@ nav a{
 }
 #page4bar{
     width: 9%;
-    border : 2px solid rgb(213, 0, 0);
-    background-color: rgb(217, 0, 0);
+    border : 2px solid rgb(255, 255, 255);
+    background-color: rgb(247, 245, 245);
     
 }
 #getintouch{
     margin-top: 50px;
     font-size: 2.5rem;
     color: white;
+}
+#aboutpg4{
+    width: 40%;
+    height: 30vh;
 }
