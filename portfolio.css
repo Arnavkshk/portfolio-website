@@ -365,4 +365,6 @@ nav a{
 #aboutpg4{
     width: 40%;
     height: 30vh;
+    display:flex;
+    flex-direction:column;
 }
