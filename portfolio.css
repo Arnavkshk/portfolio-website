@@ -368,3 +368,12 @@ nav a{
     display:flex;
     flex-direction:column;
 }
+#phonepic{
+    width: 30px;
+}
+#messagepic{
+    width: 30px;
+}
+#homepic{
+    width: 30px;
+}
