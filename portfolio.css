@@ -366,7 +366,6 @@ nav a{
     width: 40%;
     height: 30vh;
     display:flex;
-    flex-direction:column;
 }
 #phonepic{
     width: 30px;
