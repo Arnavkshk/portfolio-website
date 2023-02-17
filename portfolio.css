@@ -366,13 +366,14 @@ nav a{
     width: 40%;
     height: 30vh;
     display:flex;
+    justify-content: space-between;
 }
 #phonepic{
-    width: 30px;
+    width: 50px;
 }
 #messagepic{
-    width: 30px;
+    width: 50px;
 }
 #homepic{
-    width: 30px;
+    width: 50px;
 }
