@@ -359,10 +359,12 @@ nav a{
 }
 #getintouch{
     margin-top: 50px;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
 }
 #aboutpg4{
+    color: white; 
+    margin-top: 50px;
     width: 80%;
     height: 30vh;
     display:flex;
@@ -395,10 +397,13 @@ nav a{
 
 #phonepic{
     width: 50px;
+    filter: invert(100%);
 }
 #messagepic{
     width: 50px;
+    filter: invert(100%);
 }
 #homepic{
+    filter: invert(100%);
     width: 50px;
 }
