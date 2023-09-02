@@ -11,16 +11,14 @@ const App = () => {
   }; 
   return ( 
     <div className="App"> 
-      <Particles 
+   <Particles 
         id="particles-js" 
         init={particlesInit} 
         loaded={particlesLoaded} 
         options={{ 
-          background: { 
-            color: "rgb(10,10,25)", 
-          }, 
-          width:100,
-          height:100,
+          width:"100%",
+          height:"100%",
+          position:"relative",
           fpsLimit: 60, 
           particles: { 
             shape: { 

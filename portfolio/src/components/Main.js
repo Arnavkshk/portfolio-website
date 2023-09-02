@@ -9,13 +9,20 @@ import webb from "../assets/web.png"
 import phonepicc from "../assets/phonecall.png"
 import emaill from "../assets/email.png"
 import homee from "../assets/home.png"
-import Particles from 'react-tsparticles'
 
+const rev =()=>{
+    for(let i=0;i<90;i++){
+        let a=0;
+        a=a+1;
+        let html= a;
+        document.getElementById("boardtext1").innerHTML = html;
+    }
+
+
+}
 const Main = () => {
   return (
     <>
-    <div>
-        <Particles/>
     <nav>
         <div><a href="/"> Home</a></div>
         <div>My Skills</div>
@@ -23,7 +30,7 @@ const Main = () => {
         <div>Contact</div>
     </nav>
     <div id="main">
-        <div id="particles-js"></div>
+        <div id="particle-js"></div>
         <div id="particleChild">
             <p className="me">HELLO, IT'S ME</p>
             <h1 className="me">ARNAV KAUSHIK</h1>
@@ -99,12 +106,12 @@ const Main = () => {
             </div>
             </div>
             </div>
-    </div>
-    <div id="page3">
+
+    <div id="page3" onClick={rev}>
         <div id="page3one">
-            <div id="board10" className="page3oneone">
+            <div id="board10" className="page3oneone" >
                 <img src={tenth} alt=""/>
-                <div id="boardtext1" className="pictext">00.00</div>
+                <div id="boardtext1" className="pictext"></div>
             </div>
             <div id="board12" className="page3oneone">
                 <img src={tewelve} alt=""/>
@@ -159,9 +166,10 @@ const Main = () => {
                 <h5>Ramapuam,Chennai,India</h5>
             </div>
         </div>
-    </div>
+        </div>
     </>
   )
 }
+
 
 export default Main

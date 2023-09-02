@@ -18,6 +18,7 @@ body{
     justify-content: center;    
 }
 #particles-js {
+    margin-top: 60px;
     background-image: url("../assets/background.jpg");
     background-size: cover;
     background-attachment: fixed;
