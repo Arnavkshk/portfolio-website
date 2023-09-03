@@ -16,6 +16,7 @@ const rev =()=>{
         a=a+1;
         let html= a;
         document.getElementById("boardtext1").innerHTML = html;
+        document.getElementById("boardtext1").innerHTML = html;
     }
 
 
@@ -107,7 +108,7 @@ const Main = () => {
             </div>
             </div>
 
-    <div id="page3" onClick={rev}>
+    <div id="page3" onScroll={rev}>
         <div id="page3one">
             <div id="board10" className="page3oneone" >
                 <img src={tenth} alt=""/>
