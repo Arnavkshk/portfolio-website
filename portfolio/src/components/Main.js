@@ -78,6 +78,8 @@ const Main = () => {
                         <button className="accordion-button collapsed"type="button"data-bs-toggle="collapse"data-bs-target="#flush-collapseTwo"aria-expanded="false"aria-controls="flush-collapseTwo">
                             MY AREA OF STRENGTH.
                         </button>
+
+                            
                     </h2>
                     <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo"data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">I am proficient in C/C++,html,css and javascript these are the area where i specialize.</div>
