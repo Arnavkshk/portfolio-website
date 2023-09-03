@@ -10,17 +10,17 @@ import phonepicc from "../assets/phonecall.png"
 import emaill from "../assets/email.png"
 import homee from "../assets/home.png"
 
-const rev =()=>{
-    for(let i=0;i<90;i++){
-        let a=0;
-        a=a+1;
-        let html= a;
-        document.getElementById("boardtext1").innerHTML = html;
-        document.getElementById("boardtext1").innerHTML = html;
-    }
 
+// function rev (){
+//     let a=0;
+//     for(let i=0;i<90;i++){
+//         a=a+1;
+//         let html= a;
+//         document.getElementById("boardtext1").innerHTML = html+".4"; 
+//     }
+//     console.log(a);
+// }
 
-}
 const Main = () => {
   return (
     <>
@@ -110,19 +110,19 @@ const Main = () => {
             </div>
             </div>
 
-    <div id="page3" onScroll={rev}>
+    <div id="page3">
         <div id="page3one">
             <div id="board10" className="page3oneone" >
                 <img src={tenth} alt=""/>
-                <div id="boardtext1" className="pictext"></div>
+                <div id="boardtext1" className="pictext">90.4</div>
             </div>
             <div id="board12" className="page3oneone">
                 <img src={tewelve} alt=""/>
-                <div id="boardtext2" className="pictext">00.00</div>
+                <div id="boardtext2" className="pictext">71.8</div>
             </div>
             <div id="degree" className="page3oneone">
                 <img src={deg} alt=""/>
-                <div id="degreetext" className="pictext">00.00</div>
+                <div id="degreetext" className="pictext">85</div>
             </div>
         </div>
         <div id="page3two">
