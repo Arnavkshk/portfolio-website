@@ -3,6 +3,7 @@ import './portfolio.css'
 import mouse from "../assets/mouse.png"
 import tenth from "../assets/10th.png"
 import tewelve from "../assets/12th.png"
+import Projects from './Projects';
 import deg from "../assets/degree.png"
 import programpic from "../assets/laptop.png"
 import webb from "../assets/web.png"
@@ -26,9 +27,9 @@ const Main = () => {
     <>
     <nav>
         <div><a href="/"> Home</a></div>
-        <div>My Skills</div>
-        <div>Projects</div>
-        <div>Contact</div>
+        <div><a href="#aboutme2"> My Skills </a></div>
+        <div><a href="#projectss"> Projects </a></div>
+        <div><a href="#page4"> Contact </a></div>
     </nav>
     <div id="main">
         <div id="particle-js"></div>
@@ -37,7 +38,7 @@ const Main = () => {
             <h1 className="me">ARNAV KAUSHIK</h1>
             <p className="me">I AM A PROGRAMMER / WEB DEVELOPER</p>
         </div>
-        <div id="main2"><img src={mouse} id="mouse" alt='' /></div>
+        <div id="main2"><a href='#aboutme2'><img src={mouse} id="mouse" alt=''/></a></div>
     </div>
     
     <div id="aboutme" >
@@ -113,16 +114,16 @@ const Main = () => {
     <div id="page3">
         <div id="page3one">
             <div id="board10" className="page3oneone" >
-                <img src={tenth} alt=""/>
-                <div id="boardtext1" className="pictext">90.4</div>
+                <img id="board10pic" src={tenth} alt=""/>
+                <div id="boardtext1" className="pictext">90.4%</div>
             </div>
             <div id="board12" className="page3oneone">
-                <img src={tewelve} alt=""/>
-                <div id="boardtext2" className="pictext">71.8</div>
+                <img id ="board12pic" src={tewelve} alt=""/>
+                <div id="boardtext2" className="pictext">71.8%</div>
             </div>
             <div id="degree" className="page3oneone">
-                <img src={deg} alt=""/>
-                <div id="degreetext" className="pictext">85</div>
+                <img id="degreepic" src={deg} alt=""/>
+                <div id="degreetext" className="pictext">85%</div>
             </div>
         </div>
         <div id="page3two">
@@ -148,6 +149,7 @@ const Main = () => {
             </div>
         </div>
     </div>
+    <Projects/> 
     <div id="page4">
         <div id="getintouch">GET IN TOUCH</div>
         <div id="page4bar"></div>

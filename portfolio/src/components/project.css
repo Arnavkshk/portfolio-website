@@ -1,0 +1,22 @@
+.project-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(24, 23, 65);
+    color:white;
+}
+.project-page2{
+    width: 60%;
+}
+.heading{
+    position: relative;
+    font-size:3.5vw;
+}
+#bar{
+    border: 2px solid white;
+    width : 100px;
+    height: 0px;
+    background-color: white;
+}
